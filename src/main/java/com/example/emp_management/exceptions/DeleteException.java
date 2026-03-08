@@ -1,0 +1,8 @@
+package com.example.emp_management.exceptions;
+
+public class DeleteException extends RuntimeException {
+    public DeleteException(String message){
+        super(message);
+    }
+    
+}
